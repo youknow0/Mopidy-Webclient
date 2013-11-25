@@ -281,6 +281,11 @@
                 </div>		
             </div>
 
+            <div data-role="content" class="pane" id="lircpane">
+                <h4>LIRC</h4>
+                <div id="lircdevices"></div>
+            </div>
+
 
             <div data-role="footer" id="footer" data-tap-toggle="false" data-position="fixed">
                 <div data-role="navbar" data-iconpos="left">
@@ -296,6 +301,9 @@
                         </li>
                         <li id="navradio">
                             <a href="#radio" onclick="switchContent('radio' ); return false;"  ><img src="images/icons/mic_18x24.png" />  <span class="navtxt">Radio </span></a>
+                        </li>
+                        <li id="navlirc">
+                            <a href="#lirc" onclick="switchContent('lirc' ); return false;"  ><img src="images/icons/mic_18x24.png" />  <span class="navtxt">LIRC </span></a>
                         </li>
                     </ul>
                 </div><!-- /navbar -->
@@ -322,5 +330,6 @@
         <script src="js/lastfm.js"></script>
 
         <script src="js/gui.js"></script>
+        <script src="js/lirc.js"></script>
     </body>
 </html>

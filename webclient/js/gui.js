@@ -433,6 +433,9 @@ function locationHashChanged() {
         case 'radio':
             $('#navradio a').addClass('ui-state-active ui-state-persist ui-btn-active');
             break;
+        case 'lirc':
+            $('#navlirc a').addClass('ui-state-active ui-state-persist ui-btn-active');
+            break;
         case 'artists':
             if (uri != '') {
                 showArtist(uri);
